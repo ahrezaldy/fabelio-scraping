@@ -8,8 +8,12 @@ application/logs/*
 
 !application/*/.htaccess
 
-composer.lock
+#composer.lock
+contributing.md
+license.txt
+readme.rst
 
+user_guide/*
 user_guide_src/build/*
 user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
