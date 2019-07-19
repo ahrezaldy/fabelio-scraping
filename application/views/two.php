@@ -23,7 +23,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<td><?php echo $item['name']; ?></td>
 						<td><?php echo $item['description']; ?></td>
 						<td><?php echo $item['price']; ?></td>
-						<td><?php echo $item['url']; ?></td>
+						<td>
+							<a href="<?php echo $item['url']; ?>">To Fabelio Page</a>
+							or
+							<a href="<?php echo base_url() . 'index.php/three/' . $item['identifier']; ?>">To Page Three</a>
+						</td>
 					</tr>
 					<?php endforeach; ?>
 				</tbody>

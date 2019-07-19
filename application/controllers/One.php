@@ -53,7 +53,7 @@ class One extends CI_Controller
 			$product_id = $this->product_model->insert($identifier, $number, $name, $description, $price, $url);
 		}
 		$this->prices_model->insert($product_id, $price);
-		redirect('three/'.$product_id);
+		redirect('three/'.$identifier);
 	}
 
 	private function error($message)
