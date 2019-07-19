@@ -54,3 +54,6 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['three/(:any)'] = 'three/index/$1';
+$route['three/comment/(:num)'] = 'three/comment/$1';
+$route['three/upvote/(:num)'] = 'three/upvote/$1';
+$route['three/downvote/(:num)'] = 'three/downvote/$1';
