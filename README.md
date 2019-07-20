@@ -7,11 +7,11 @@
 ```
 git clone https://github.com/ahrezaldy/fabelio-scraping.git
 ```
-3. Open [config](https://github.com/ahrezaldy/fabelio-scraping/blob/master/application/config/config.php) file, and edit based on your server setting.
+4. Open [config](https://github.com/ahrezaldy/fabelio-scraping/blob/master/application/config/config.php) file, and edit based on your server setting.
 ```php
 $config['base_url'] = 'http://localhost/fabelio-scraping/';
 ```
-4. Open [database config](https://github.com/ahrezaldy/fabelio-scraping/blob/master/application/config/database.php) file, and edit based on your server setting.
+5. Open [database config](https://github.com/ahrezaldy/fabelio-scraping/blob/master/application/config/database.php) file, and edit based on your server setting.
 ```php
 $db['default'] = array(
 	// . . . 
